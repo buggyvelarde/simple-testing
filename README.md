@@ -21,5 +21,5 @@ make test
 To check the code and run it continuously
 
 ```bash
-make lint
+make
 ```
