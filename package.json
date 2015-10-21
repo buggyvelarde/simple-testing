@@ -1,0 +1,37 @@
+{
+  "name": "simple-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "karma": "^0.13.11",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-mocha": "^0.2.0",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.3.3",
+    "standard": "^5.3.1"
+  },
+  "dependencies": {
+    "webpack": "^1.12.2"
+  },
+  "standard": {
+    "ignore": [
+      "**/test-main.js",
+      "karma.conf.js",
+      "webpack.config.js"
+    ],
+    "globals": [
+      "describe",
+      "beforeEach",
+      "afterEach",
+      "it"
+    ]
+  }
+}
