@@ -33,9 +33,9 @@ describe('my form', function () {
     it('test will fail', function () {
       var expected = [1, 1, 2, 3, 5]
       var fib = require('../src/some_code').fib
-      // expected.map(function(e, i) {
-      //   assert.equal(fib(i), e)
-      // })
+      expected.map(function(e, i) {
+        assert.equal(fib(i), e)
+      })
     })
 
   })
