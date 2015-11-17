@@ -13,5 +13,9 @@ module.exports = {
   plugins: [
   ],
   module: {
+    loaders: [
+      { test: /\.html$/, loader: 'raw' },
+      { test: /\.json$/, loader: 'json' }
+    ]
   }
 }

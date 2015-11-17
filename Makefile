@@ -5,8 +5,8 @@ start: lint test
 lint:
 	@node_modules/.bin/standard
 
-test:
+test: lint
 	@node_modules/.bin/karma start
 
-test-once:
+test-once: lint
 	@node_modules/.bin/karma start --single-run --browsers Chrome
